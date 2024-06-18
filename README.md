@@ -13,9 +13,11 @@
 ## Introduction
 This Project aims to develop a image denoising model to remove noise from the images while preserving important details and structures. Different types of Noises such as Gaussian Noise, Salt-and-pepper noise etc. can arise in images during acquisition or processing, and can reduce image quality and make it difficult to interpret.
 
-![alt text](image.png)
+![image](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/b66bbc17-ddb5-4964-81e0-3a65375fbb26)
 
-            Clean Image                    Noised Image
+
+
+              Clean Image                                 Noised Image
 
 ## Dataset
 * The dataset consists of both High light and Low light images. 
@@ -83,13 +85,19 @@ It employs a context gating mechanism to enhance feature representation by selec
   Callbacks: Early stopping to prevent overfitting and reduce learning rate on plateau to fine-tune training.
 * #### Calculations:
   * Mean Absolute Error (MAE):
-  ![alt text](MAE-formula.webp)
+    
+     ![download](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/47f51e69-0fb2-4b3f-bd59-ed2e9a072361)
+
+
 
   * Mean Squared Error (MSE):
-![alt text](1_BtVajQNj29LkVySEWR_4ww.png)
+    
+       ![1_BtVajQNj29LkVySEWR_4ww](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/61c45ad8-3bf6-4a60-a229-dbc3c0b40116)
 
   * Peak Signal-to-Noise Ratio (PSNR):
-  ![alt text](images.png)
+    
+     ![images](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/9803dd17-0c05-4479-a092-56e66745dce8)
+
 
 ###   Code
 ```ruby
@@ -274,11 +282,14 @@ plt.show()
 ```
 ### Results
 * #### Images:-
-  ![alt text](<Screenshot 2024-06-18 201400.png>)
+  ![Screenshot 2024-06-18 201400](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/2fb011aa-103d-4d73-a721-077c1ace4fe4)
+
 * #### PSNR Over Time:-
-![alt text](<Screenshot 2024-06-18 204708.png>)
+  ![Screenshot 2024-06-18 204708](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/63cfd4ec-7acb-48eb-b348-42f7284df47c)
+
 * #### Scatter Plot of Prediction:-
-![alt text](<Screenshot 2024-06-18 210550.png>)
+  ![Screenshot 2024-06-18 210550](https://github.com/RahulSingh005/Low-Light-Image-Denoiser/assets/134304672/18a9848e-6d3c-4a19-be6d-4556fccd79a5)
+
 
 ### Potential Improvements:
   * I have compressed the images to 32*32 size from 600*400 size due to Storage and RAM issue due to which I a was unable to extract large features and this cause low PSNR Value.
