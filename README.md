@@ -303,5 +303,6 @@ plt.show()
 ### References
   * https://paperswithcode.com/task/image-denoising
   * https://alain.xyz/blog/machine-learning-denoising
-  * https://medium.com/analytics-vidhya/image-denoising-using-deep-learning-dc2b19a3fd54
+  * https://arxiv.org/abs/1505.04597
+  * https://journalofbigdata.springeropen.com/articles/10.1186/s40537-021-00444-8
   * Extreme Low-Light Single-Image Denoising Model- Stanford University (PDF)
